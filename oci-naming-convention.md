@@ -1,6 +1,6 @@
 ## Syntax Mennej Konvencie pre verejnú časť vládneho cloudu / Oracle Cloud Infrastructure (OCI) 
 
-### Obsah dokumentu 
+### Obsah dokumentu
 
 Tento dokument presne popisuje pravidlá pomenovávania objektov v Oracle Cloud Infraštruktúre. 
 
@@ -176,92 +176,27 @@ V tejto časti špecifikujeme možné povinné polia pri názve OR-ky. V pr�
 |Protimonopolný úrad SR | ANTIMON |
 |Rada pre vysielanie a retransmisiu SR | RVR |
 |Rozhlas a televízia Slovenska | RTVS |
-
-
-
-RTVS 
-
-Rozhlas a televízia Slovenska  
-
-SLK 
-
-Slovenská lekárska komora  
-
-SP 
-
-Sociálna poisťovňa  
-
-RESERVES 
-
-Správa štátnych hmotných rezerv SR  
-
-SUSR 
-
-Štatistický úrad SR  
-
-TASR 
-
-Tlačová agentúra SR  
-
-UNIONZP 
-
-Union - zdravotná poisťovňa  
-
-UGKK 
-
-Úrad geodézie, kartografie a katastra SR  
-
-UJD 
-
-Úrad jadrového dozoru SR  
-
-UKPD 
-
-Úrad komisára pre deti  
-
-UKPOZP 
-
-Úrad komisára pre osoby so zdravotným postihnutím  
-
-UOOU 
-
-Úrad na ochranu osobných údajov  
-
-UDZS 
-
-Úrad pre dohľad nad zdravotnou starostlivosťou   
-
-UNMS 
-
-Úrad pre normalizáciu, metrológiu a skúšobníctvo SR  
-
-UREKPS 
-
-Úrad pre reguláciu elektronických komunikácií a poštových služieb  
-
-URSO 
-
-Úrad pre reguláciu sieťových odvetví SR  
-
-UVO 
-
-Úrad pre verejné obstarávanie  
-
-UPV 
-
-Úrad priemyselného vlastníctva SR  
-
-UVSR 
-
-Úrad vlády SR  
-
-UPNSR 
-
-Ústav pamäti národa  
-
-VSZP 
-
-Všeobecná zdravotná poisťovňa  
+|Slovenská lekárska komora | SLK |
+|Sociálna poisťovňa | SP |
+|Správa štátnych hmotných rezerv SR | RESERVES |
+|Štatistický úrad SR | SUSR |
+|Tlačová agentúra SR | TASR |
+|Union - zdravotná poisťovňa | UNIONZP |
+|Úrad geodézie, kartografie a katastra SR | UGKK |
+|Úrad jadrového dozoru SR | UJD |
+|Úrad komisára pre deti | UKPD |
+|Úrad komisára pre osoby so zdravotným postihnutím | UKPOZP |
+|Úrad na ochranu osobných údajov | UOOU |
+|Úrad pre dohľad nad zdravotnou starostlivosťou | UDZS |
+|Úrad pre normalizáciu, metrológiu a skúšobníctvo SR | UNMS |
+|Úrad pre reguláciu elektronických komunikácií a poštových služieb | UREKPS |
+|Úrad pre normalizáciu, metrológiu a skúšobníctvo SR | UNMS |
+|Úrad pre reguláciu sieťových odvetví SR | URSO |
+|Úrad pre verejné obstarávanie | UVO |
+|Úrad priemyselného vlastníctva SR | UPV |
+|Úrad vlády SR  | UVSR |
+|Ústav pamäti národa | UPNSR |
+|ÚVšeobecná zdravotná poisťovňa | VSZP |
 
 ### Syntax mennej konvencie v OCI 
 
