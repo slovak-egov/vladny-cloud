@@ -28,12 +28,14 @@ V tomto dokumente budú na účely vysvetlenia pravidiel používané tieto sk
 ### Známe limitácie v menách objektov 
 
 Menná konvencia musí vychádzať z limitácii objektov, aby sme mohli stanoviť presné pravidlá a predišli problémom s príliš dlhým menom objektu, ktorý nebude možný. V nasledujúcich odstavcoch popisujem presné limitácie mien objektov, ktoré treba brať do úvahy. 
+
 Najzakladanejšiu limitáciu v menných konvenciách vo väčšine prípadov predstavuje parameter hostname, ktorý je vo väčšine prípadov (prienik medzi Linuxom, využívajúcim hostnamectl a Windows) 63 znakov, ktoré pozostávajú so znakov A-Z, a-z, 0-9 a špeciálneho znaku – pomlčky, ktorou ale začínať nesmie. 
 Pri menách „compute“ objektov, sa tieto objekty priamo premietajú do hostname parametra, no v prípade ak meno objektu presiahne 63 znakov, zvyšnú časť po 63. znaku do parametra hostname nedá. 
 Ďalšou dôležitou limitáciou, ktorú treba brať do úvahy, pri navrhovaní mennej konvencie je DNS meno, ktoré je síce dosť dlhé (255 možných znakov) ale tiež môže využívať len znaky popísane v hostname časti a bodku, ktorou ale začínať nemôže. V tejto časti je dôležité zdôrazniť, že sa počítajú aj znaky použite v hlavnej doméne, všetkých subdoménach a aj všetky oddeľovacie bodky. 
+
 V neposlednom rade musíme počítať aj s limitáciami samotného OCI, ktoré sú pre jednotlivé komponenty definované takto :  
-Meno objektu musí mať počet znakov medzi 1-254 
-Meno objektu môže obsahovať akékoľvek špeciálne znaky, veľké aj malé písmena, čísla a aj interpunkčné znamienka slovenskej abecedy. 
+- Meno objektu musí mať počet znakov medzi 1-254 
+- Meno objektu môže obsahovať akékoľvek špeciálne znaky, veľké aj malé písmena, čísla a aj interpunkčné znamienka slovenskej abecedy. 
 
 ### Odporúčania k mennej konvencii 
 
@@ -59,363 +61,123 @@ Výsledné odporúčanie je na základe limitácií v menách objektov, by men
 
 ### Špecifikácie objektov v OCI 
 
-V tejto časti bližšie špecifikujeme skratky, ktoré používame v kapitole 4. 
+V tejto časti bližšie špecifikujeme skratky, ktoré používame v nasledujúcej kapitole.
 
+#### Network komponenty
+|Popis OCI Komponentov |Skratka |
+--- | --- |
+|Virtual Cloud Network | VCN |
+|Subnet | SBN  |
+|Routovacia Tabulka | VRT |
+|Internetova Gateway | IGW |
+|NAT Gateway | NAT |
+|Network Security Group | NSG |
+|Security List | SEL  |
+|DHCP Options | DHO |
+|Local Peering Gateway | LPG |
+|Service Gateway | SEG |
+|Attachment | ATC |
+|Web Application Firewall | WAF |
+|Network Load Balancer | NLB |
+|DNS Management  | DNS |
+|Site-to-Site IPSEC VPN | VPN |
+|Fast Connect | FCN |
+|Dynamic Routing Gateway | DRG |
+|Customer-Premises Equipment | CPE |
+|Reserved Public IPs | PIP |
+|Bring Your Own IP/s | BYI |
+|Public IP Pools | PPO |
+|Network Path Analyzer | NPA |
+|VLANs (Pouzivane iba pri ESXi vmWare ) | VLN |
+
+#### Compute komponenty
+|Popis OCI Komponentov |Skratka |
+--- | --- |
+|Work Request | WRQ |
+|Virtual Compute Instance  | VCM |
+|Dedikovany Bare Metal Host  | BMH |
+|Virtual Compute Konfiguracia | VCC |
+|Pool Virtual Compute Nodov | VCP |
+|Compute Cluster Network | CCN |
+|Compute Auto-Scaling Configuration | ASC |
+|Compute Capacity Reservation | CCR |
+|Compute Custom Image | CCI |
+|Compute Instance Network Interface Card | NIC |
+|Compute Custom Command | CCC |
+|Compute Work Request | CWR |
+
+#### Storage komponenty
+|Popis OCI Komponentov |Skratka |
+--- | --- |
+|Storage Block Volume | SBV |
+|Storage Volume Group| SVG |
+|Storage Backup Policy | SBP |
+
+#### Database komponenty
+|Popis OCI Komponentov |Skratka |
+--- | --- |
+|DB Channels | DCH |
+|DB Systems| DBS |
+|DB Configurations | DCF |
+
+#### Oracle Databazy komponenty
+|Popis OCI Komponentov |Skratka |
+--- | --- |
+|Autonomous Container Database | ACD |
+|Autonomous Exadata VM Cluster | AEC |
+|Exadata Infrastructure| EIN |
  
-
-Skratky OCI Komponentov 
-
-Network 
-
-VCN 
-
-Virtual Cloud Network 
-
-SBN 
-
-Subnet / Pod VCNkom 
-
-VRT 
-
-Routovacia Tabulka / Pod VCNkom 
-
-IGW 
-
-Internetova Gateway / Pod VCNkom 
-
-NAT 
-
-NAT Gateway / Pod VCNkom 
-
-NSG 
-
-Network Security Group / Pod VCNkom 
-
-SEL 
-
-Security List / Pod VCNkom 
-
-DHO 
-
-DHCP Options / Pod VCNkom 
-
-LPG 
-
-Local Peering Gateway / Pod VCNkom 
-
-SEG 
-
-Service Gateway / Pod VCNkom 
-
-ATC 
-
-Attachment 
-
-WAF 
-
-Web Application Firewall 
-
-LBL 
-
-Load Balancer 
-
-NLB 
-
-Network Load Balancer 
-
-DNS 
-
-DNS Management 
-
-VPN 
-
-Site-to-Site VPN 
-
-FCN 
-
-Fast Connect 
-
-DRG 
-
-Dynamic Routing Gateway 
-
-CPE 
-
-Customer-Premises Equipment 
-
-PIP 
-
-Reserved Public IPs 
-
-BYI 
-
-Bring Your Own IP/s 
-
-PPO 
-
-Public IP Pools 
-
-NPA 
-
-Network Path Analyzer 
-
-DHO 
-
-DHCP Options 
-
-VLN 
-
-VLANs / Pouzivane iba pri ESXi vmWare 
-
+#### Identity komponenty
+|Popis OCI Komponentov |Skratka |
+--- | --- |
+|Identity User Policy | IUP |
  
-
- 
-
-Compute 
-
-WRQ 
-
-Work Request 
-
-VCM 
-
-Virtual Compute Instance 
-
-BMH 
-
-Dedikovany Bare Metal Host 
-
-VCC 
-
-Virtual Compute Konfiguracia 
-
-VCP 
-
-Pool Virtual Compute Nodov 
-
-CCN 
-
-Compute Cluster Network 
-
-ASC 
-
-Compute Auto-Scaling Configuration 
-
-CCR 
-
-Compute Capacity Reservation 
-
-CCI 
-
-Compute Custom Image 
-
-NIC 
-
-Compute Instance Network Interface Card 
-
-CCC 
-
-Compute Custom Command 
-
-CWR 
-
-Compute Work Request 
-
- 
-
- 
-
-Storage 
-
-SBV 
-
-Storage Block Volume 
-
-SVG 
-
-Storage Volume Group 
-
-SBP 
-
-Storage Backup Policy 
-
- 
-
- 
-
-Database 
-
-DBS 
-
-DB Systems 
-
-DCH 
-
-DB Channels 
-
-DCF 
-
-DB Configurations 
-
-Oracle Database 
-
-ACD 
-
-Autonomous Container Database 
-
-AEC 
-
-Autonomous Exadata VM Cluster 
-
-EIN 
-
-Exadata Infrastructure 
-
- 
-
- 
-
-Identity 
-
-IUP 
-
-Identity User Policy 
-
- 
-
-Security 
-
-KEY 
-
-Key Vault 
-
-HSM 
-
-HSM  
-
-### Syntax mennej konvencie v OCI 
-
-Špecifikácia ORiek 
+#### Security komponenty
+|Popis OCI Komponentov |Skratka |
+--- | --- |
+|Key Vault | KEY |
+|HSM | Hardware Security Module | 
+
+### Špecifikácia OR
 
 V tejto časti špecifikujeme možné povinné polia pri názve OR-ky. V prípade ak nastane aktualizácia údajov v tabuľke (názov, skratka, alebo pridanie či odstránenie záznamu), je povinnosťou vzhliadajúceho tento údaj príslušne upraviť a to tak aby reflektoval na aktuálnu situáciu. 
 
- 
+#### Skratka OR
+|Cely názov OR |Skratka |
+--- | --- |
+|Datacentrum elektronizácie územnej samosprávy Slovenska | DEUS |
+|Dôvera - zdravotná poisťovňa | DOVERAZP |
+|Exportno-importná banka SR | EXIMBANKA |
+|Generálna prokuratúra SR | GPSR |
+|Kancelária Najvyššieho súdu SR | NSUD |
+|Kancelária Národnej rady SR | NRSR |
+|Kancelária prezidenta SR | PREZIDENT |
+|Kancelária Súdnej rady SR | SUDNARADA |
+|Kancelária Ústavného súdu SR | USTAVNYSUD |
+|Kancelária verejného ochrancu práv | VOP |
+|Ministerstvo dopravy a výstavby SR | MINDOP |
+|Ministerstvo financií SR | MFSR |
+|Ministerstvo hospodárstva SR | MHSR |
+|Ministerstvo investícií, regionálneho rozvoja a informatizácie SR | MIRRI |
+|Ministerstvo kultúry SR| MKSR |
+|Ministerstvo obrany SR| MOSR |
+|Ministerstvo pôdohospodárstva a rozvoja vidieka SR| MPSR |
+|Ministerstvo práce, sociálnych vecí a rodiny SR | MPSVR |
+|Ministerstvo spravodlivosti SR | JUSTICE |
+|Ministerstvo školstva, vedy, výskumu a športu SR | MINEDU |
+|Ministerstvo vnútra SR | MVSR |
+|Ministerstvo školstva, vedy, výskumu a športu SR | MZSR |
+|Ministerstvo zahraničných vecí a európskych záležitostí SR | MINEDU |
+|Ministerstvo zahraničných vecí a európskych záležitostí SR | MZSR |
+|Ministerstvo zdravotníctva SR | MZSR |
+|Ministerstvo životného prostredia SR | MINZP |
+|Najvyšší kontrolný úrad SR | NKU |
+|Národný bezpečnostný úrad | NBU |
+|Protimonopolný úrad SR | ANTIMON |
+|Rada pre vysielanie a retransmisiu SR | RVR |
+|Rozhlas a televízia Slovenska | RTVS |
 
-Skratka OR-ky 
 
-Cely názov OR-ky 
-
-DEUS 
-
-Datacentrum elektronizácie územnej samosprávy Slovenska 
-
-DOVERAZP 
-
-Dôvera - zdravotná poisťovňa  
-
-EXIMBANKA 
-
-Exportno-importná banka SR  
-
-GPSR 
-
-Generálna prokuratúra SR  
-
-NSUD 
-
-Kancelária Najvyššieho súdu SR  
-
-NRSR 
-
-Kancelária Národnej rady SR  
-
-PREZIDENT 
-
-Kancelária prezidenta SR  
-
-SUDNARADA 
-
-Kancelária Súdnej rady SR  
-
-USTAVNYSUD 
-
-Kancelária Ústavného súdu SR  
-
-VOP 
-
-Kancelária verejného ochrancu práv  
-
-MINDOP 
-
-Ministerstvo dopravy a výstavby SR  
-
-MFSR 
-
-Ministerstvo financií SR  
-
-MHSR 
-
-Ministerstvo hospodárstva SR  
-
-MIRRI 
-
-Ministerstvo investícií, regionálneho rozvoja a informatizácie SR  
-
-MKSR 
-
-Ministerstvo kultúry SR  
-
-MOSR 
-
-Ministerstvo obrany SR  
-
-MPSR 
-
-Ministerstvo pôdohospodárstva a rozvoja vidieka SR  
-
-MPSVR 
-
-Ministerstvo práce, sociálnych vecí a rodiny SR  
-
-JUSTICE 
-
-Ministerstvo spravodlivosti SR  
-
-MINEDU 
-
-Ministerstvo školstva, vedy, výskumu a športu SR  
-
-MVSR 
-
-Ministerstvo vnútra SR  
-
-MZSR 
-
-Ministerstvo zahraničných vecí a európskych záležitostí SR  
-
-MZSR 
-
-Ministerstvo zdravotníctva SR  
-
-MINZP 
-
-Ministerstvo životného prostredia SR  
-
-NKU 
-
-Najvyšší kontrolný úrad SR  
-
-NBU 
-
-Národný bezpečnostný úrad   
-
-ANTIMON 
-
-Protimonopolný úrad SR  
-
-RVR 
-
-Rada pre vysielanie a retransmisiu SR  
 
 RTVS 
 
@@ -500,4 +262,6 @@ UPNSR
 VSZP 
 
 Všeobecná zdravotná poisťovňa  
+
+### Syntax mennej konvencie v OCI 
 
