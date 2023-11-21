@@ -252,30 +252,47 @@ VLN	|VLANs / Pouzivane iba pri ESXi VMware | | |
 #### VM komponenty
 |Typ Assetu |Rozsah |Formát |Príklad |
 --- | --- | --- | --- |
+WRQ	|Work Request | | |
+VCM	|Virtual Compute Instance | | |
+BMH	|Dedikovany Bare Metal Host | | |
+VCC	|Virtual Compute Konfiguracia | | |
+VCP	|Pool Virtual Compute Nodov | | |
+CCN	|Compute Cluster Network | | |
+ASC	|Compute Auto-Scaling Configuration | | |
+CCR	|Compute Capacity Reservation | | |
+CCI	|Compute Custom Image | | |
+NIC	|Compute Instance Network Interface Card | | |
+CCC	|Compute Custom Command | | |
+CWR	|Compute Work Request | | |
 
 #### Kubernetes komponenty
-|Typ Assetu |Rozsah |Formát |Príklad |
---- | --- | --- | --- |
-
-#### VMware komponenty
 |Typ Assetu |Rozsah |Formát |Príklad |
 --- | --- | --- | --- |
 
 #### Storage komponenty
 |Typ Assetu |Rozsah |Formát |Príklad |
 --- | --- | --- | --- |
+SBV	|Storage Block Volume | | |
+SVG	|Storage Volume Group | | |
+SBP	|Storage Backup Policy | | |
 
 #### Database komponenty
 |Typ Assetu |Rozsah |Formát |Príklad |
 --- | --- | --- | --- |
+DBS	|DB Systems | | |
+DCH	|DB Channels | | |
+DCF	|DB Configurations | | |
+ACD	|Autonomous Container Database | | |
+AEC	|Autonomous Exadata VM Cluster | | |
+EIN	|Exadata Infrastructure | | |
 
-#### Security komponenty
+#### Identity a Security komponenty
 |Typ Assetu |Rozsah |Formát |Príklad |
 --- | --- | --- | --- |
-
-#### PaaS komponenty
-|Typ Assetu |Rozsah |Formát |Príklad |
---- | --- | --- | --- |
+IUP	|Identity User Policy | | |
+TNT	|Tenant | | |
+KEY	|Key Vault | | |
+HSM	|Hardware Security Module | | |
 
 
 
