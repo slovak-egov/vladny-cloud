@@ -198,5 +198,19 @@ V tejto časti špecifikujeme možné povinné polia pri názve OR-ky. V pr�
 |Ústav pamäti národa | UPNSR |
 |ÚVšeobecná zdravotná poisťovňa | VSZP |
 
+#### Pomenovanie prostredí
+|Prostredie |Popis |Príklady |
+--- | --- | --- |
+|Typ predplatného/subskripcie |Súhrnný popis účelu predplatného obsahujúceho zdroj. Často rozdelené podľa typu prostredia nasadenia alebo špecifických pracovných zaťažení. |prod, dev, test, sharedservices|
+|Prostredie nasadenia |Zaradenie vývoja pracovných zaťažení, ktoré zdroj podporuje. |prod, nonprod |
+|Pripojenie prostredia |Pripojenie do siete Govnet |govnet, nogovnet |
+|Región |Oblasť Azure, kde je prostriedok nasadený. |Netherlands Amsterdam <westeu>, Ireland Dublin <northeu>, Poland Central<centeu> |
+
 ### Syntax mennej konvencie v OCI 
 
+Táto časť slúži na definovanie štandardov pomenovávania, ktoré chcete použiť na každý typ prostriedku, ktorý plánujete nasadiť.
+
+#### Compartment
+|Typ Assetu |OR |Formát |Príklad |
+--- | --- | --- | --- |
+|cmp |Account OR |mgmt-(OR)-(prostredie) |cmp-mirri-prod, cmp-mirri-nonprod |
