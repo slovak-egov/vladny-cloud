@@ -201,10 +201,10 @@ V tejto časti špecifikujeme možné povinné polia pri názve OR-ky. V pr�
 #### Pomenovanie prostredí
 |Prostredie |Popis |Príklady |
 --- | --- | --- |
-|Typ predplatného/subskripcie |Súhrnný popis účelu predplatného obsahujúceho zdroj. Často rozdelené podľa typu prostredia nasadenia alebo špecifických pracovných zaťažení. |prod, dev, test, sharedservices|
+|Typ predplatného/subskripcie |Súhrnný popis účelu predplatného obsahujúceho zdroj. Často rozdelené podľa typu prostredia nasadenia alebo špecifických pracovných zaťažení. |prod, dev, test, shared|
 |Prostredie nasadenia |Zaradenie vývoja pracovných zaťažení, ktoré zdroj podporuje. |prod, nonprod |
 |Pripojenie prostredia |Pripojenie do siete Govnet |govnet, nogovnet |
-|Región |Oblasť Azure, kde je prostriedok nasadený. |Netherlands Amsterdam <westeu>, Ireland Dublin <northeu>, Poland Central<centeu> |
+|Región |Oblasť Azure, kde je prostriedok nasadený. |Region Identifier z [OCI dokumentácie](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm) |
 
 ### Syntax mennej konvencie v OCI 
 
@@ -221,8 +221,33 @@ Táto časť slúži na definovanie štandardov pomenovávania, ktoré chcete po
 |sub |Account/Enterprise Agreement |sub-(služba/aplikácia/projekt)-(prostredie)-(###) |sub-itam-prod-001 |
 
 #### Sieťové komponenty
-|Typ Assetu |Rozsah |Formát |Príklad |
+|Typ Assetu |Popis |Formát |Príklad |
 --- | --- | --- | --- |
+VCN	|Virtual Cloud Network |vcn-(hub/dmz/OR)-(gov/nogov)-(prod/test/dev/shared)-(region) |vcn-hub-gov-prod-eu-frankfurt-1 |
+SBN	|Subnet / Pod VCNkom | | |
+VRT	|Routovacia Tabulka | | |
+IGW	|Internetova Gateway | | |
+NAT	|NAT Gateway | | |
+NSG	|Network Security Group | | |
+SEL	|Security List | | |
+DHO	|DHCP Options | | |
+LPG	|Local Peering Gateway | | |
+SEG	|Service Gateway | | |
+ATC	|Attachment | | |
+WAF	|Web Application Firewall | | |
+LBL	|Load Balancer | | |
+NLB	|Network Load Balancer | | |
+DNS	|DNS Management | | |
+VPN	|Site-to-Site VPN | | |
+FCN	|Fast Connect | | |
+DRG	|Dynamic Routing Gateway | | |
+CPE	|Customer-Premises Equipment | | |
+PIP	|Reserved Public IPs | | |
+BYI	|Bring Your Own IP/s | | |
+PPO	|Public IP Pools | | |
+NPA	|Network Path Analyzer | | |
+DHO	|DHCP Options | | |
+VLN	|VLANs / Pouzivane iba pri ESXi VMware | | |
 
 #### VM komponenty
 |Typ Assetu |Rozsah |Formát |Príklad |
