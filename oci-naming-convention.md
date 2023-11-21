@@ -214,3 +214,45 @@ Táto časť slúži na definovanie štandardov pomenovávania, ktoré chcete po
 |Typ Assetu |OR |Formát |Príklad |
 --- | --- | --- | --- |
 |cmp |Account OR |mgmt-(OR)-(prostredie) |cmp-mirri-prod, cmp-mirri-nonprod |
+
+#### Subskripcie
+|Typ Assetu |OR |Formát |Príklad |
+--- | --- | --- | --- |
+|sub |Account/Enterprise Agreement |sub-(služba/aplikácia/projekt)-(prostredie)-(###) |sub-itam-prod-001 |
+
+#### Sieťové komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+#### VM komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+#### Kubernetes komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+#### VMware komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+#### Storage komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+#### Database komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+#### Security komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+#### PaaS komponenty
+|Typ Assetu |Rozsah |Formát |Príklad |
+--- | --- | --- | --- |
+
+
+
+
+
