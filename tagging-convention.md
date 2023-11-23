@@ -1,4 +1,4 @@
-### Konvencia pomenovania Taggov
+## Konvencia pomenovania Taggov
 
 Tento hárok použite na definovanie značiek metadát, ktoré chcete použiť na zdroje. 
 
