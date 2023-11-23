@@ -1,4 +1,11 @@
 ## Syntax Mennej Konvencie pre verejnú časť vládneho cloudu / Oracle Cloud Infrastructure (OCI) 
+- [Obsah Dokumentu](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#obsah-dokumentu)
+- [Ucel Dokumentu](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#%C3%BA%C4%8Del-dokumentu)
+- [Cielove Publikum](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#cie%C4%BEov%C3%A9-publikum)
+- [Pouzite Skratky](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#pou%C5%BEit%C3%A9-skratky)
+- [Zname limitacie v menach objektov](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#zn%C3%A1me-limit%C3%A1cie-vmen%C3%A1ch-objektov)
+- [Odporucania k mennej konvencii](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#odpor%C3%BA%C4%8Dania-kmennej-konvencii)
+- [Syntax Mennej Konvencie](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#syntax-mennej-konvencie-v-oci)
 
 ### Obsah dokumentu
 
