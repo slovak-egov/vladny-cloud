@@ -1,54 +1,11 @@
-|||||
-| - | - | :- | :- |
-|Konvencie pomenovania a označovania zdrojov v eSKa Cloud Azure||||
-|Sledovací list||||
-|Author:|Roman Gelien|||
-|Date:|01\.09.2022|||
-|||||
-|Inštrukcie:|Táto tabuľka slúži na zaznamenávanie zmien. Každá zmena musí byť prediskutovaná s Cloudovým oddelením na MIRRI a po schválení bude následne zahrnutá alebo pridaná do dokumentu.|||
-|||||
-|**História zmien**||||
-|**Verzia**|**Dátum**|||
-|1|01\.10.2022|||
-|||||
-|||||
+## Menná Konvencia pre Microsoft Azure
+- Konvencia pomenovania Centrálnej časti
+- Konvencia pomenovania OR časti
 
+### Konvencia pomenovania Centrálnej časti
 
-|||
-| - | - |
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|**Meno**|**Hárok**|
-|Roman Gelien|Naming Convention Central, Spoke Tagging Convention|
-|||
-|||
+Inštrukcie: Tento hárok použite na definovanie štandardov pomenovávania, ktoré chcete použiť na každý typ prostriedku, ktorý plánujete nasadiť.
 
-
-|||
-| - | - |
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|**Zmeny - komentáre**||
-|Prvotný dokument - základne zdroje a tagy identifikovane a schválene.||
-|||
-|||
-
-
-|Konvencia pomenovania Centrálnej časti||||
-| - | :- | :- | :- |
-|Inštrukcie:|Tento hárok použite na definovanie štandardov pomenovávania, ktoré chcete použiť na každý typ prostriedku, ktorý plánujete nasadiť.|||
 |||||
 |**Pomenovanie komponentov**|Hlavné časti kontextu, ktoré sa použijú na zostavenie názvov zdrojov.|||
 |**Komponent pomenovania**|**Popis**|||
