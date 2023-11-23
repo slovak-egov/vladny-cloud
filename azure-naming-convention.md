@@ -441,9 +441,10 @@ Inštrukcie: Tento hárok použite na definovanie štandardov pomenovávania, kt
 
 
 
-|Konvencia pomenovania OVM časti||||
-| - | :- | :- | :- |
-|Inštrukcie:|Tento hárok použite na definovanie štandardov pomenovávania, ktoré chcete použiť na každý typ prostriedku, ktorý plánujete nasadiť.|||
+### Konvencia pomenovania OR časti
+
+Inštrukcie: Tento hárok použite na definovanie štandardov pomenovávania, ktoré chcete použiť na každý typ prostriedku, ktorý plánujete nasadiť.
+
 |||||
 |**Pomenovanie komponentov**|Hlavné časti kontextu, ktoré sa použijú na zostavenie názvov zdrojov.|||
 |**Komponent pomenovania**|**Popis**|||
