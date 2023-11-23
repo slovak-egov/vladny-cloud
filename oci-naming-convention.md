@@ -93,7 +93,7 @@ Táto časť slúži na definovanie štandardov pomenovávania, ktoré chcete po
 |Typ Assetu |Popis |Formát |Príklad |
 --- | --- | --- | --- |
 VCN	|Virtual Cloud Network |vcn-(hub/dmz/OR)-(gov/nogov)-(prod/test/dev/shared)-(region) |vcn-hub-gov-prod-eu-frankfurt-1 |
-SNET	|Subnet |snet-(účel/služba/aplikácia)-(prostredie)-(region)=(###) |snet-shared-prod-westeu-001 |
+SNET	|Subnet |snet-(účel/služba/aplikácia)-(prostredie)-(region)-(###) |snet-shared-prod-westeu-001 |
 VRT	|Routovacia Tabulka | | |
 IGW	|Internetova Gateway | | |
 NAT	|NAT Gateway | | |
