@@ -1,6 +1,6 @@
 ## Menná Konvencia pre Microsoft Azure
 - [Konvencia pomenovania Centrálnej časti](https://github.com/slovak-egov/vladny-cloud/blob/main/azure-naming-convention.md#konvencia-pomenovania-centr%C3%A1lnej-%C4%8Dasti)
-- Konvencia pomenovania OR časti
+- [Konvencia pomenovania OR časti](https://github.com/slovak-egov/vladny-cloud/blob/main/azure-naming-convention.md#konvencia-pomenovania-or-%C4%8Dasti)
 
 ### Konvencia pomenovania Centrálnej časti
 
