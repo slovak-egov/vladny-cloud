@@ -63,5 +63,5 @@ V tejto časti špecifikujeme možné povinné polia pri názve OR-ky. V pr�
 --- | --- | --- |
 |Typ predplatného/subskripcie |Súhrnný popis účelu predplatného obsahujúceho zdroj. Často rozdelené podľa typu prostredia nasadenia alebo špecifických pracovných zaťažení. |prod, dev, test, shared|
 |Prostredie nasadenia |Zaradenie vývoja pracovných zaťažení, ktoré zdroj podporuje. |prod, nonprod |
-|Pripojenie prostredia |Pripojenie do siete Govnet |govnet, nogovnet |
+|Pripojenie prostredia |Pripojenie do siete Govnet |govnet, nogov |
 |Región |Oblasť Azure, kde je prostriedok nasadený. |Region Identifier z [OCI dokumentácie](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm) |
