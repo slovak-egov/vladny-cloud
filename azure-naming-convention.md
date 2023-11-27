@@ -1,5 +1,5 @@
 ## Menná Konvencia pre Microsoft Azure
-- [Skratky OR a prostredi](https://github.com/slovak-egov/vladny-cloud/blob/main/or-naming-convention)
+- [Skratky OR a prostredi](https://github.com/slovak-egov/vladny-cloud/blob/main/or-naming-convention.md)
 - [Konvencia pomenovania Centrálnej časti](https://github.com/slovak-egov/vladny-cloud/blob/main/azure-naming-convention.md#konvencia-pomenovania-centr%C3%A1lnej-%C4%8Dasti)
 - [Konvencia pomenovania OR časti](https://github.com/slovak-egov/vladny-cloud/blob/main/azure-naming-convention.md#konvencia-pomenovania-or-%C4%8Dasti)
 
