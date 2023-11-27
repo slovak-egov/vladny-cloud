@@ -5,7 +5,7 @@
 - [Pouzite Skratky](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#pou%C5%BEit%C3%A9-skratky)
 - [Zname limitacie v menach objektov](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#zn%C3%A1me-limit%C3%A1cie-vmen%C3%A1ch-objektov)
 - [Odporucania k mennej konvencii](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#odpor%C3%BA%C4%8Dania-kmennej-konvencii)
-- [Skratky OR a prostredi](https://github.com/slovak-egov/vladny-cloud/blob/main/or-naming-convention)
+- [Skratky OR a prostredi](https://github.com/slovak-egov/vladny-cloud/blob/main/or-naming-convention.md)
 - [Syntax Mennej Konvencie v OCI](https://github.com/slovak-egov/vladny-cloud/blob/main/oci-naming-convention.md#syntax-mennej-konvencie-v-oci)
 
 ### Obsah dokumentu
