@@ -16,7 +16,8 @@ Inštrukcie: Tento hárok použite na definovanie štandardov pomenovávania, kt
 
 |Typ Assetu |Rozsah |Formát |Príklad |
 --- | --- | --- | --- |
-| Subscription | Account/Enterprise Agreement | sub-{služba/aplikácia/projekt}-{prostredie}-{###} | sub-itam-prod-001 |
+| Subscription pre projekt | Account/Enterprise Agreement | sub-{služba/aplikácia/projekt}-{prostredie}-{###} | sub-itam-prod-001 |
+| Subscription pre sandbox | Account/Enterprise Agreement | sub-sandbox-{organizácia}-{služba/aplikácia/projekt}-{###} | sub-sandbox-mirri-rodnylistobce-001 |
 
 #### Resource groups 
 
