@@ -6,57 +6,54 @@ V tejto časti špecifikujeme možné povinné polia pri názve OR-ky. V pr�
 |Cely názov OR |Skratka |
 --- | --- |
 |Datacentrum elektronizácie územnej samosprávy Slovenska | DEUS |
-|Dôvera - zdravotná poisťovňa | DOVERAZP |
-|Exportno-importná banka SR | EXIMBANKA |
-|Generálna prokuratúra SR | GPSR |
-|Kancelária Najvyššieho súdu SR | NSUD |
-|Kancelária Národnej rady SR | NRSR |
-|Kancelária prezidenta SR | PREZIDENT |
-|Kancelária Súdnej rady SR | SUDNARADA |
-|Kancelária Ústavného súdu SR | USTAVNYSUD |
-|Kancelária verejného ochrancu práv | VOP |
-|Ministerstvo dopravy a výstavby SR | MINDOP |
-|Ministerstvo financií SR | MFSR |
-|Ministerstvo hospodárstva SR | MHSR |
-|Ministerstvo investícií, regionálneho rozvoja a informatizácie SR | MIRRI |
-|Ministerstvo kultúry SR| MKSR |
-|Ministerstvo obrany SR| MOSR |
-|Ministerstvo pôdohospodárstva a rozvoja vidieka SR| MPSR |
-|Ministerstvo práce, sociálnych vecí a rodiny SR | MPSVR |
-|Ministerstvo spravodlivosti SR | JUSTICE |
-|Ministerstvo školstva, vedy, výskumu a športu SR | MINEDU |
-|Ministerstvo vnútra SR | MVSR |
-|Ministerstvo školstva, vedy, výskumu a športu SR | MZSR |
-|Ministerstvo zahraničných vecí a európskych záležitostí SR | MINEDU |
-|Ministerstvo zahraničných vecí a európskych záležitostí SR | MZSR |
-|Ministerstvo zdravotníctva SR | MZSR |
-|Ministerstvo životného prostredia SR | MINZP |
-|Najvyšší kontrolný úrad SR | NKU |
-|Národný bezpečnostný úrad | NBU |
-|Protimonopolný úrad SR | ANTIMON |
+|Dôvera - zdravotná poisťovňa | DOVER ZP |
+|Exportno-importná banka SR | EXIMBANKA SR |
+|Generálna prokuratúra SR | GP SR |
+|Kancelária Najvyššieho súdu SR | KNS SR |
+|Kancelária Národnej rady SR | KNR SR |
+|Kancelária prezidenta SR | PR SR |
+|Kancelária Súdnej rady SR | KSR SR |
+|Kancelária Ústavného súdu SR | KÚS SR |
+|Kancelária verejného ochrancu práv | KVOP |
+|Ministerstvo dopravy a výstavby SR | MDV SR |
+|Ministerstvo financií SR | MF SR |
+|Ministerstvo hospodárstva SR | MH SR |
+|Ministerstvo investícií, regionálneho rozvoja a informatizácie SR | MIRRI SR |
+|Ministerstvo kultúry SR| MK SR |
+|Ministerstvo obrany SR| MO SR |
+|Ministerstvo pôdohospodárstva a rozvoja vidieka SR| MPRV SR |
+|Ministerstvo práce, sociálnych vecí a rodiny SR | MPSVaR SR |
+|Ministerstvo spravodlivosti SR | MS SR |
+|Ministerstvo školstva, vedy, výskumu a športu SR | MŠVVaŠ SR |
+|Ministerstvo vnútra SR | MV SR |
+|Ministerstvo zahraničných vecí a európskych záležitostí SR | MZVaEZ SR |
+|Ministerstvo zdravotníctva SR | MZ SR |
+|Ministerstvo životného prostredia SR | MŽP SR |
+|Najvyšší kontrolný úrad SR | NKÚ SR |
+|Národný bezpečnostný úrad | NBÚ |
+|Protimonopolný úrad SR | PMÚ SR |
 |Rada pre vysielanie a retransmisiu SR | RVR |
-|Rozhlas a televízia Slovenska | RTVS |
+|Slovenská televízia a rozhlas | STVR |
 |Slovenská lekárska komora | SLK |
 |Sociálna poisťovňa | SP |
-|Správa štátnych hmotných rezerv SR | RESERVES |
-|Štatistický úrad SR | SUSR |
+|Správa štátnych hmotných rezerv SR | SŠHR SR |
+|Štatistický úrad SR | ŠÚ SR |
 |Tlačová agentúra SR | TASR |
-|Union - zdravotná poisťovňa | UNIONZP |
-|Úrad geodézie, kartografie a katastra SR | UGKK |
-|Úrad jadrového dozoru SR | UJD |
-|Úrad komisára pre deti | UKPD |
-|Úrad komisára pre osoby so zdravotným postihnutím | UKPOZP |
-|Úrad na ochranu osobných údajov | UOOU |
-|Úrad pre dohľad nad zdravotnou starostlivosťou | UDZS |
-|Úrad pre normalizáciu, metrológiu a skúšobníctvo SR | UNMS |
-|Úrad pre reguláciu elektronických komunikácií a poštových služieb | UREKPS |
-|Úrad pre normalizáciu, metrológiu a skúšobníctvo SR | UNMS |
-|Úrad pre reguláciu sieťových odvetví SR | URSO |
-|Úrad pre verejné obstarávanie | UVO |
-|Úrad priemyselného vlastníctva SR | UPV |
-|Úrad vlády SR  | UVSR |
-|Ústav pamäti národa | UPNSR |
-|ÚVšeobecná zdravotná poisťovňa | VSZP |
+|Union - zdravotná poisťovňa | UNION ZP |
+|Úrad geodézie, kartografie a katastra SR | ÚGKK SR |
+|Úrad jadrového dozoru SR | ÚJD SR |
+|Úrad komisára pre deti | ÚKD |
+|Úrad komisára pre osoby so zdravotným postihnutím | ÚKOZP |
+|Úrad na ochranu osobných údajov | ÚOOÚ SR |
+|Úrad pre dohľad nad zdravotnou starostlivosťou | ÚDZS |
+|Úrad pre normalizáciu, metrológiu a skúšobníctvo SR | ÚNMS SR |
+|Úrad pre reguláciu elektronických komunikácií a poštových služieb | UPREKaPS |
+|Úrad pre reguláciu sieťových odvetví SR | ÚRSO |
+|Úrad pre verejné obstarávanie | ÚVO |
+|Úrad priemyselného vlastníctva SR | ÚPV SR |
+|Úrad vlády SR  | ÚV SR |
+|Ústav pamäti národa | ÚPN |
+|ÚVšeobecná zdravotná poisťovňa | VšZP |
 
 #### Pomenovanie prostredí
 |Prostredie |Popis |Príklady |
