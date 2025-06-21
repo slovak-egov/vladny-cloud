@@ -2,6 +2,9 @@
 
 V tejto časti špecifikujeme možné povinné polia pri názve OR-ky. V prípade ak nastane aktualizácia údajov v tabuľke (názov, skratka, alebo pridanie či odstránenie záznamu), je povinnosťou vzhliadajúceho tento údaj príslušne upraviť a to tak aby reflektoval na aktuálnu situáciu. 
 
+Pri tvorbe názvov cloudových zdrojov (AWS, OCI, Azure a iní) používajte skratky bez diakritiky a bez medzier.
+Väčšina poskytovateľov povoľuje len ASCII písmená (A-Z, a-z), číslice (0-9) a zopár znakov ako pomlčka -, podčiarkovník _, prípadne bodka .. Názvy obsahujúce medzery či znaky mimo základnej anglickej abecedy – napríklad á, č, ľ – validátor odmietne.
+
 #### Skratka OR
 |Cely názov OR |Skratka |
 --- | --- |
