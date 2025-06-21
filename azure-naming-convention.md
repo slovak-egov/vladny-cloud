@@ -23,7 +23,8 @@ Inštrukcie: Tento hárok použite na definovanie štandardov pomenovávania, kt
 
 |Typ Assetu |Rozsah |Formát |Príklad |
 --- | --- | --- | --- |
-| Budget | Account/Enterprise Agreement | budget-sandbox-{organizácia}-{služba/aplikácia/projekt}-{###} | budget-sandbox-mirri-rodnylistobce-001 |
+| Budget pre projekt | Account/Enterprise Agreement | budget-{organizácia}-{služba/aplikácia/projekt}-{###} | budget-mirri-rodnylistobce-001 |
+| Budget pre sandbox | Account/Enterprise Agreement | budget-sandbox-{organizácia}-{služba/aplikácia/projekt}-{###} | budget-sandbox-mirri-rodnylistobce-001 |
 
 #### Resource groups 
 
